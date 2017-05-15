@@ -24,7 +24,7 @@ img = cv2.imread('CAM876_2017-03-31-14-01.JPG')
 #Define variables
 x = 520
 y = 510
-k = 18
+
 
 #loop over the rotation angles (counterclockwise)
 for angle in np.arange (0, 360, 0.4):
